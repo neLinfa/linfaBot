@@ -1,0 +1,242 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "Fai un bonifico di 13 euro a Pierangelo",
+        "intent": "bonifico",
+        "entities": [
+          {
+            "start": 7,
+            "end": 15,
+            "value": "bonifico",
+            "entity": "operazione"
+          },
+          {
+            "start": 19,
+            "end": 26,
+            "value": "13 euro",
+            "entity": "importo"
+          },
+          {
+            "start": 29,
+            "end": 39,
+            "value": "Pierangelo",
+            "entity": "beneficiario"
+          }
+        ]
+      },
+      {
+        "text": "Fai un bonifico per Polito da 90 €",
+        "intent": "bonifico",
+        "entities": [
+          {
+            "start": 7,
+            "end": 15,
+            "value": "bonifico",
+            "entity": "operazione"
+          },
+          {
+            "start": 20,
+            "end": 26,
+            "value": "Polito",
+            "entity": "beneficiario"
+          },
+          {
+            "start": 30,
+            "end": 34,
+            "value": "90 €",
+            "entity": "importo"
+          }
+        ]
+      },
+      {
+        "text": "Paga un bonifico di 823,44 € per Chiumarulo",
+        "intent": "bonifico",
+        "entities": [
+          {
+            "start": 8,
+            "end": 16,
+            "value": "bonifico",
+            "entity": "operazione"
+          },
+          {
+            "start": 20,
+            "end": 28,
+            "value": "823,44 €",
+            "entity": "importo"
+          },
+          {
+            "start": 33,
+            "end": 43,
+            "value": "Chiumarulo",
+            "entity": "beneficiario"
+          }
+        ]
+      },
+      {
+        "text": "Compila un bonifico di 10,20 euro per Giovanni",
+        "intent": "bonifico",
+        "entities": [
+          {
+            "start": 11,
+            "end": 19,
+            "value": "bonifico",
+            "entity": "operazione"
+          },
+          {
+            "start": 23,
+            "end": 33,
+            "value": "10,20 euro",
+            "entity": "importo"
+          },
+          {
+            "start": 38,
+            "end": 46,
+            "value": "Giovanni",
+            "entity": "beneficiario"
+          }
+        ]
+      },
+      {
+        "text": "Compilami un bonifico",
+        "intent": "bonifico",
+        "entities": [
+          {
+            "start": 13,
+            "end": 21,
+            "value": "bonifico",
+            "entity": "operazione"
+          }
+        ]
+      },
+      {
+        "text": "Fai un bonifico",
+        "intent": "bonifico",
+        "entities": [
+          {
+            "start": 7,
+            "end": 15,
+            "value": "bonifico",
+            "entity": "operazione"
+          }
+        ]
+      },
+      {
+        "text": "Fai un bonifico dal conto predefinito",
+        "intent": "bonifico",
+        "entities": [
+          {
+            "start": 7,
+            "end": 15,
+            "value": "bonifico",
+            "entity": "operazione"
+          },
+          {
+            "start": 20,
+            "end": 37,
+            "value": "conto predefinito",
+            "entity": "conto"
+          }
+        ]
+      },
+      {
+        "text": "Voglio effettuare un bonifico di 50 euro per Marco Ingrosso dal solito conto",
+        "intent": "bonifico",
+        "entities": [
+          {
+            "start": 21,
+            "end": 29,
+            "value": "bonifico",
+            "entity": "operazione"
+          },
+          {
+            "start": 33,
+            "end": 40,
+            "value": "50 euro",
+            "entity": "importo"
+          },
+          {
+            "start": 45,
+            "end": 59,
+            "value": "Marco Ingrosso",
+            "entity": "beneficiario"
+          },
+          {
+            "start": 64,
+            "end": 76,
+            "value": "solito conto",
+            "entity": "conto"
+          }
+        ]
+      },
+      {
+        "text": "vorrei vedere i miei ultimi movimenti",
+        "intent": "movimenti",
+        "entities": [
+          {
+            "start": 28,
+            "end": 37,
+            "value": "movimenti",
+            "entity": "operazione"
+          }
+        ]
+      },
+      {
+        "text": "fammi vedere i movimenti di giugno",
+        "intent": "movimenti",
+        "entities": [
+          {
+            "start": 15,
+            "end": 24,
+            "value": "movimenti",
+            "entity": "operazione"
+          },
+          {
+            "start": 28,
+            "end": 34,
+            "value": "giugno",
+            "entity": "periodo"
+          }
+        ]
+      },
+      {
+        "text": "vorrei vedere l'elenco dei movimenti da marzo ad aprile",
+        "intent": "movimenti",
+        "entities": [
+          {
+            "start": 37,
+            "end": 55,
+            "value": "da marzo ad aprile",
+            "entity": "periodo"
+          },
+          {
+            "start": 27,
+            "end": 36,
+            "value": "movimenti",
+            "entity": "operazione"
+          }
+        ]
+      },
+      {
+        "text": "vediamo i movimenti degli ultimi 15 giorni",
+        "intent": "movimenti",
+        "entities": [
+          {
+            "start": 10,
+            "end": 19,
+            "value": "movimenti",
+            "entity": "operazione"
+          },
+          {
+            "start": 26,
+            "end": 42,
+            "value": "ultimi 15 giorni",
+            "entity": "periodo"
+          }
+        ]
+      }
+    ],
+    "entity_synonyms": [],
+    "regex_features": []
+  }
+}
